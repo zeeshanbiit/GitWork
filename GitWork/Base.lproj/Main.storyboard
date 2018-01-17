@@ -25,17 +25,30 @@
                                     <action selector="buttonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LV2-X1-A2T"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="New label is added to new commit" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hy6-nl-7gb">
+                                <rect key="frame" x="24" y="74" width="327" height="55"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="55" id="yOJ-w7-Cev"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="642-pa-3I6" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Buq-vq-lsj"/>
+                            <constraint firstItem="Hy6-nl-7gb" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="54" id="E08-Q9-OYV"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Hy6-nl-7gb" secondAttribute="trailing" constant="24" id="ITA-hQ-u7e"/>
                             <constraint firstItem="642-pa-3I6" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Svu-OC-gwz"/>
+                            <constraint firstItem="Hy6-nl-7gb" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="24" id="hJ1-dL-Zl5"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="32.799999999999997" y="35.532233883058474"/>
         </scene>
     </scenes>
 </document>
